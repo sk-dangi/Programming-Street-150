@@ -18,9 +18,9 @@ int main()
 
     while (b != 0)
     {
-        int temp = b;
-        b = a % b;
-        a = temp;
+        int temp = b; //temp = 18
+        b = a % b; // b = 48 % 18 = 12
+        a = temp; //a =18
     }
 
     cout << a;
